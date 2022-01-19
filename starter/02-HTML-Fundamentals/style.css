@@ -1,5 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  margin: 50px auto;
+  width: 1000px;
+}
+
 body {
-  border: 10px solid black;
+  border: 5px solid black;
   font-family: sans-serif;
 }
 p,
@@ -7,19 +16,27 @@ ul,
 h3 {
   font-weight: bold;
   font-size: 22px;
+  margin-bottom: 20px;
 }
 ul {
   line-height: 2;
   list-style: square;
+  margin-left: 30px;
 }
 h2 {
   font-size: 25px;
 }
+
 h2,
 h3,
 .free,
 button {
   text-transform: uppercase;
+}
+
+a {
+  margin-bottom: 20px;
+  color: red;
 }
 
 a:link,
@@ -39,14 +56,20 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  margin-top: 20px;
+}
+
 .free {
   color: rgb(121, 120, 120);
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .price {
   font-size: 30px;
   font-weight: bolder;
+  margin-bottom: 20px;
 }
 
 button {
@@ -55,9 +78,20 @@ button {
   font-size: 25px;
   border: none;
   cursor: pointer;
+  padding: 10px 0;
+  width: 1000px;
 }
 
 button:hover {
   background-color: #fff;
   color: black;
+  border-top: 5px solid #000;
+}
+
+.main-heading {
+  padding: 20px 0;
+}
+
+.more-info:link {
+  margin-bottom: 20px;
 }
